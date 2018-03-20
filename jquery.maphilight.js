@@ -254,8 +254,8 @@
 				backgroundSize:'contain',
 				position:'relative',
 				padding:0,
-				width:this.width,
-				height:this.height
+				width:$(this).width(),
+				height:$(this).height()
 				});
 			if(options.wrapClass) {
 				if(options.wrapClass === true) {
